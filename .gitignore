@@ -8,10 +8,12 @@ env/
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 *.ipynb_checkpoints/
 
 # Environment configurations & secrets
 .env
+*.env
 *.env.local
 
 # Logs and runtime data
