@@ -1,5 +1,7 @@
 # 🏢 RAG-Powered Employee Handbook Assistant
 
+Demo Video: [Watch the demo](https://drive.google.com/file/d/1l30sqc0a-4lPi6HjJwHKv_EOLtUW90-Z/view?usp=sharing)
+
 An end-to-end, production-oriented Retrieval-Augmented Generation (RAG) web application designed to answer complex employee policy and HR inquiries. The system extracts verified information from an indexed corpus of digital employee handbooks, strictly enforces factual grounding to prevent hallucinations, and cites exact source documents and page numbers.
 
 ---
