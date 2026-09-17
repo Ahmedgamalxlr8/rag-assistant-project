@@ -1,6 +1,7 @@
 from pathlib import Path
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # Points to backend/
 class Settings(BaseSettings):
     HOST: str = "0.0.0.0"
     PORT: int = 8000
@@ -10,7 +11,6 @@ class Settings(BaseSettings):
     COLLECTION_NAME: str = "handbook_docs"
 
     # Points to backend/data/vector_store
-    BASE_DIR: Path = Path(__file__).resolve().parent.parent.parent
     CHROMA_DIR: Path = BASE_DIR / "data" / "vector_store"
 
     model_config = SettingsConfigDict(

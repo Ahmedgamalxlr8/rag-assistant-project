@@ -96,7 +96,7 @@ ollama run llama3.2
 ### 2. Clone & Environment Configuration
 
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/rag-assistant-project.git
+git clone https://github.com/Ahmedgamalxlr8/rag-assistant-project.git
 cd rag-assistant-project
 
 # Create virtual environment
